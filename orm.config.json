@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "username": "postgres",
+  "password": "gdbpasstest",
+  "host": "gtestdb.cjpxvkhiyqe6.us-east-2.rds.amazonaws.com",
+  "port": 5432,
+  "database": "gtestdb",
+  "entities": ["src/**/**/*.entity{.ts,.js}"],
+  "migrations": ["src/database/migrations/*{.ts,.js}"],
+  "cli": {
+    "migrationsDir": "src/database/migrations"
+  }
+}

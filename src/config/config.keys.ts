@@ -1,0 +1,8 @@
+export enum Configuration {
+  PORT = "API_PORT",
+  HOST = "API_DBHOST",
+  USERNAME = "API_DBUSERNAME",
+  PASSWORD = "API_DBPASSWORD",
+  DATABASE = "API_DATABASE",
+  POKEMON_API = "POKEMON_API",
+}
